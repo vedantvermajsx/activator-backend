@@ -23,7 +23,7 @@ const id=setInterval(() => {
     URLS.forEach(url => {
         check(url);
     });
-}, 1000 * 60*15);
+}, 1000 * 60*5);
 
 
 
