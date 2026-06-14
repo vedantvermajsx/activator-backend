@@ -23,7 +23,7 @@ const id=setInterval(() => {
     URLS.forEach(url => {
         check(url);
     });
-}, 1000 * 60*5);
+}, 10*60*1000);
 
 
 
@@ -33,8 +33,13 @@ async function check(url){
 
 
 function update(res){
-    map[res.url]=res.status==200?"up":"down";
- console.log(map);
+    if(res.status===200){
+        console.log(res.url);
+        map.set(res.url,"up");
+    }
+    else{
+        map.set(res.url,"down");
+    }
 }
 
 
