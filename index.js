@@ -14,6 +14,7 @@ app.get('/health', (req, res) => {
 });
 
 app.get("/",(req,res)=>{
+    console.log(map);
     res.send(map);
 })
 
