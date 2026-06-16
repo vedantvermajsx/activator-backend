@@ -1,11 +1,12 @@
 import { URLS} from "./urls.js";
-import map from "./urls.js";
 import express from "express";
 import cors from "cors";
 
 const app = express();
 
 app.use(cors());
+
+const map=new map();
 
 
 
@@ -24,7 +25,7 @@ const id=setInterval(() => {
     URLS.forEach(url => {
         check(url);
     });
-}, 10*60*1000);
+}, 1000);
 
 
 
