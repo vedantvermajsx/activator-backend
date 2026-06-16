@@ -6,7 +6,7 @@ const app = express();
 
 app.use(cors());
 
-const map=new map();
+const map=map();
 
 
 
