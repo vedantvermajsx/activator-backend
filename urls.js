@@ -5,23 +5,12 @@ export const URLS=[
     "https://activator-backend.onrender.com/health",
     "https://whisprgram.onrender.com/health",
     "https://hushline-chatapp.onrender.com",
-    "https://hushline-broker-service.onrender.com",
-    "https://hushline-cacheservice.onrender.com",
-    "https://hushline-loadbalancer-service.onrender.com",
+    "https://hushline-messagebroker-service.onrender.com",
+    "https://hushline-cache-service.onrender.com",
+    "https://hushline-loadbalancer-service.onrender.com/health",
     "https://hushline-backend-service01.onrender.com",
     "https://hushline-backend-service02.onrender.com",
     "https://hushline-backend-service03.onrender.com",
     "https://hushline-backend-service04.onrender.com",
     "https://hushline-backend-service05.onrender.com",
 ]
-
-
-const map=new Map();
-
-URLS.forEach(url=>{
-    map.set(url,"down");
-})
-
-
-
-export default map;
