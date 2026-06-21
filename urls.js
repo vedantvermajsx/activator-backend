@@ -2,7 +2,7 @@ export const URLS=[
     "https://eira-collections.onrender.com/health",
     "https://task-manager-taskly.onrender.com/health",
     "https://lingugram.onrender.com/health",
-    "https://activator-backend.onrender.com/health",
+    "https://activator-backend-ztvt.onrender.com/health",
     "https://whisprgram.onrender.com/health",
     "https://hushline-chatapp.onrender.com",
     "https://hushline-broker-service.onrender.com",
