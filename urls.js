@@ -8,11 +8,17 @@ export const URLS=[
     "https://hushline-broker-service.onrender.com",
     "https://hushline-cacheservice.onrender.com",
     "https://hushline-loadbalancer-service.onrender.com",
+    "https://chatapp-loadbalancer-service.onrender.com",
+    "https://chatapp-cache-service.onrender.com",
+    "https://chatapp-broker-service.onrender.com",
+    "https://chatapp-queue-service.onrender.com",
     "https://hushline-backend-service01.onrender.com",
     "https://hushline-backend-service02.onrender.com",
     "https://hushline-backend-service03.onrender.com",
     "https://hushline-backend-service04.onrender.com",
     "https://hushline-backend-service05.onrender.com",
+    "https://chatapp-backend-service01.onrender.com",
+    "https://chatapp-backend-service02.onrender.com"
 ]
 
 
